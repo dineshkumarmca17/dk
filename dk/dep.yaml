@@ -1,4 +1,4 @@
-apiVersion: apps/v1 
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: k8sdemo
@@ -6,7 +6,7 @@ metadata:
   labels:
     app: httpd
 spec:
-  replicas: 5
+  replicas: 4
   selector:
     matchLabels:
       app: httpd
