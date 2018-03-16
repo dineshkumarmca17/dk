@@ -4,7 +4,7 @@ metadata:
   name: tomato
 spec:
   selector:
-    app: httpd
+      app: httpd
   ports:
   - protocol: TCP
     port: 80
