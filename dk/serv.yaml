@@ -10,3 +10,4 @@ spec:
     port: 80
     targetPort: 2020
 type: LoadBalancer    
+--validate=false
