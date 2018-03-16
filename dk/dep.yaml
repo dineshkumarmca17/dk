@@ -2,7 +2,6 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: k8sdemo
-  namespace: my-first
   labels:
     app: httpd
 spec:
